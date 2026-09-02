@@ -22,18 +22,4 @@ Diseñar una infraestructura empresarial organizada y escalable que permita:
 
 El diseño utiliza una arquitectura jerárquica compuesta por:
 
-```text
-                    ┌──────────────────┐
-                    │       CORE       │
-                    │   L3 Switching   │
-                    └────────┬─────────┘
-                             │
-                    ┌────────▼─────────┐
-                    │   DISTRIBUTION   │
-                    │ Routing / OSPF   │
-                    └────────┬─────────┘
-                             │
-                    ┌────────▼─────────┐
-                    │      ACCESS      │
-                    │ VLAN / Endpoints │
-                    └──────────────────┘
+![Arquitectura de red empresarial](architecture/network-topology.png)
